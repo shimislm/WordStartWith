@@ -1,0 +1,14 @@
+#id_parent{
+    min-height: 300px;
+    border: red 2px solid;
+    border-radius: 24px;
+}
+.card{
+    height: 200px;
+    border: red 2px solid;
+    border-radius: 24px;
+}
+.card img{
+    height: 75%;
+    width: 100%;
+}
