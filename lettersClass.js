@@ -7,7 +7,7 @@ class Letters{
     }
     render(){
         document.querySelector(this.parent).innerHTML = `
-        <h2 class="bg-dark text-white col-1">${this.letter}</h2>
+        <h2 class="display-2 bg-dark text-white col-1">${this.letter}</h2>
         <div id="id_words" class="mt-5 row row-cols-md-3 row-cols-1 align-items-center justify-content-center gap-4">
         <div id="answer1" class="card" style="width: 150px; cursor: pointer;">
         <img src="${this.answers[0].image}" class="card-img-top" width="100%" alt="${this.answers[0].name}">
