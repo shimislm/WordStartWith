@@ -15,14 +15,17 @@ const createTrivia = ()=>{
         letters = _.shuffle(lettersArr);
     }
     let answers =[]
+    // לולאה שמכניסה לפחות תשובה אחת נכונה
     let rnd = Math.floor(Math.random()*words.length)
     while(letters[counter] != words[rnd].name[0]){
         rnd = Math.floor(Math.random()*words.length)
     }
     answers.push(words[rnd]);
+    // לולאה שמכניסה למערך רק מילים שלא קיימות
     while(answers.length < 4){
         rnd = Math.floor(Math.random()*words.length)
-        if(letters[counter] != words[rnd].name[0] && !(answers.includes(words[rnd].name))){
+        console.log(rnd)
+        if(letters[counter] != words[rnd].name[0] && (answers.indexOf(words[rnd])==-1)){
             answers.push(words[rnd]);
         }
     }

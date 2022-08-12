@@ -24,7 +24,7 @@ let wordArr= [
      {"name":"וילון",
       "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Black_curtain.jpg/800px-Black_curtain.jpg?20110928094353"},
      {"name":"זבוב",
-      "image":"https://publicdomainvectors.org/photos/cmliu-fly-or-bee.png"},
+      "image":"https://publicdomainvectors.org/photos/GreenFly.png"},
      {"name":"זברה",
       "image":"https://image.similarpng.com/very-thumbnail/2021/10/Cut-zebra-illustration-on-transparent-background-PNG.png"},
      {"name":"חתול",
